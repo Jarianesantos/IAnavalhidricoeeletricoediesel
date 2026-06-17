@@ -13,13 +13,8 @@ app = FastAPI(
 @app.get("/", response_class=HTMLResponse)
 def home():
 
-    html_content = """
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>IA Naval</title>
-
-        <style>
+   
+    
 
             body{
                 font-family: Arial;
